@@ -1,0 +1,55 @@
+//google font
+//font-family: 'Supermercado One', cursive;
+
+//General Styles
+html{
+    background-color: #282c34;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+h1, h2{
+    font-family: 'Supermercado One', cursive;
+    color: #f7931d;
+}
+
+//Header
+header{
+    h1{
+    font-size: 4rem;
+    text-align: center;
+    }
+    p{
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+        color: #f9f9f9;
+    }
+}
+
+//Section
+section{
+    color: #f9f9f9;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    article{
+        width: 200px;
+        p{
+            margin: 5px;
+        }
+        ul{
+            margin-top: 0;
+            list-style-type: armenian;
+        }
+        h2{
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+    }
+}
